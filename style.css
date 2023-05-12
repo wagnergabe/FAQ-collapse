@@ -88,21 +88,23 @@ transform: rotateY( 180deg);
 .faq-toggle:focus {
     outline: 0;
 } 
-.faq-toggle .fa-solid {
+
+.faq-toggle .fa-xmark{
     display: none;
 }
 
-.faq-toggle .fa-solid {
-    display: none;
-}
-
-.faq.active .faq-toggle .fa-solid {
-    color: #fff;
+.faq-toggle .fa-check{
     display: block;
+}
+
+.faq.active .faq-toggle .fa-xmark {
+    color: #fff;
+    display: block
 }
 
 .faq.active .faq-toggle .fa-check {
     display: none;
+
 }
 
 .faq.active .faq-toggle {
