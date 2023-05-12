@@ -81,6 +81,30 @@ transform: rotateY( 180deg);
     right: 30px;
     height: 30px;
     width: 30px;
+    border-radius: 50%;
 
 }
 
+.faq-toggle:focus {
+    outline: 0;
+} 
+.faq-toggle .fa-solid {
+    display: none;
+}
+
+.faq-toggle .fa-solid {
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-solid {
+    color: #fff;
+    display: block;
+}
+
+.faq.active .faq-toggle .fa-check {
+    display: none;
+}
+
+.faq.active .faq-toggle {
+    background-color: #9fa4a8;
+}
